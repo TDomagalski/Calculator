@@ -1,0 +1,55 @@
+.container {
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.content {
+  height: 600px;
+  width: 35%;
+  margin: auto;
+  border: 5px solid black;
+}
+
+.calculator {
+  background-color: grey;
+  display: flex;
+}
+
+.display, .first, .second, .third, .fourth {
+  width: 100%;
+  height: 110px;
+  background-color: grey;
+  display: flex;
+  padding: 5px 0;
+}
+
+.display {
+  width: 100%;
+  border-bottom: 2px solid black;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.btn {
+  width: 24%;
+  height: 100%;
+  margin: 0 1%;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 46px;
+  font-weight: bold;
+  cursor: default;
+}
+
+.btn:hover {
+  background-color: green;
+}
