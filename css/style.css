@@ -6,7 +6,7 @@
 }
 
 .content {
-  height: 600px;
+  height: 720px;
   width: 35%;
   margin: auto;
   border: 5px solid black;
@@ -17,7 +17,7 @@
   display: flex;
 }
 
-#display, #first, #second, #third, #fourth {
+#display, #zero, #first, #second, #third, #fourth {
   width: 100%;
   height: 110px;
   background-color: grey;
@@ -36,7 +36,7 @@
   font-weight: bold;
 }
 
-#btn, #btn0, #btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btnClear  {
+#btn, #btn0, #btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btnClear, #btnSum, #btnResault  {
   width: 24%;
   height: 100%;
   margin: 0 1%;
@@ -50,6 +50,6 @@
   cursor: default;
 }
 
-#first div:hover, #second div:hover, #third div:hover, #fourth div:hover {
+#zero div:hover, #first div:hover, #second div:hover, #third div:hover, #fourth div:hover {
   background-color: green;
 }

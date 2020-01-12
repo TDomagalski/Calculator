@@ -11,11 +11,28 @@ const output = document.querySelector("#display"),
       nine = document.querySelector("#btn9");
 
       clear = document.querySelector("#btnClear");
+      btnSum = document.querySelector("#btnSum");
+      resault = document.querySelector("#btnResault");
+
+var  sum1;
 
 function showNumber(e) {
 
   var item = e.target.textContent;
   output.textContent += item;
+
+}
+
+function sum() {
+
+  var sum1,
+      sum2;
+
+  sum1 = display.textContent;
+  sum1 = parseInt(sum1);
+  output.textContent = "";
+  console.log(sum1);
+  console.log(typeof sum1);
 
 }
 
@@ -33,5 +50,13 @@ nine.addEventListener("click", showNumber, false);
 clear.addEventListener("click", function clear() {
 
   output.textContent = "";
+
+}, false);
+
+btnSum.addEventListener("click", sum, false);
+
+resault.addEventListener("click", function resault() {
+
+  console.log("test");
 
 }, false);
